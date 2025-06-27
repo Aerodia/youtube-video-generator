@@ -44,13 +44,12 @@ cd backend
 python -m venv venv
 
 # Activate the virtual environment
-# On macOS/Linux:
-source venv/bin/activate
-# On Windows (Command Prompt/PowerShell):
-.\venv\Scripts\activate
-# On Windows (Git Bash/MinGW):
-source venv/Scripts/activate
-
+  On macOS/Linux:
+    source venv/bin/activate
+  On Windows (Command Prompt/PowerShell):
+    .\venv\Scripts\activate
+  On Windows (Git Bash/MinGW):
+    source venv/Scripts/activate
 # Install Python dependencies
 pip install -r requirements.txt
 
@@ -58,6 +57,7 @@ Create .env file: In the youtube-video-generator root directory (one level up fr
 
 # Go to the root directory
 cd ..
+
 # Create the .env file
 touch .env # On Windows, you might need to use `notepad .env` or similar
 Configure .env: Open the newly created .env file and add your Google API key and the desired Gemini model.
@@ -79,6 +79,7 @@ npm install
 Make sure your virtual environment is active in the backend directory.
 
 cd ~/youtube-video-generator/backend # Ensure you are in the backend directory
+
 # (venv)
 python app.py
 
