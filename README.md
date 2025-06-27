@@ -1,4 +1,5 @@
-#YouTube Video Content Generator
+**YouTube Video Content Generator**
+
 This application helps content creators quickly generate catchy YouTube video titles and detailed, SEO-optimized video descriptions based on a provided script or summary. It consists of a React frontend and a Flask backend that leverages the Google Gemini API for powerful text generation.
 
 #Features:
