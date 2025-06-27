@@ -95,4 +95,13 @@ This will open the React app in your web browser, usually at http://localhost:30
 
 Now you can interact with the application locally! Input your video script or summary and generate content.
 
+# Images
+
+![image](https://github.com/user-attachments/assets/e367ac5d-347b-4891-a0b3-0a72998f6427)
+
+![image](https://github.com/user-attachments/assets/7b74229a-4fb2-4ed8-8b30-dfa961efda95)
+
+
+
+
 NOTE: To use IBM Watsonx you will need to buy a plan other than LITE and have to update the app.py file according to watsonx.
