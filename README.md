@@ -94,3 +94,5 @@ npm start
 This will open the React app in your web browser, usually at http://localhost:3000/.
 
 Now you can interact with the application locally! Input your video script or summary and generate content.
+
+NOTE: To use IBM Watsonx you will need to buy a plan other than LITE and have to update the app.py file according to watsonx.
