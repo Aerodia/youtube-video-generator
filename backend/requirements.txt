@@ -1,0 +1,4 @@
+Flask==2.3.3 # Or current stable version
+Flask-Cors==4.0.0 # Or current stable version
+requests==2.31.0 # Or current stable version
+python-dotenv==1.0.1 # Or current stable version
