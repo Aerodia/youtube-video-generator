@@ -2,18 +2,18 @@
 
 This application helps content creators quickly generate catchy YouTube video titles and detailed, SEO-optimized video descriptions based on a provided script or summary. It consists of a React frontend and a Flask backend that leverages the Google Gemini API for powerful text generation.
 
-#Features:
+# Features
 1.Frontend (React): A user-friendly interface to input video scripts/summaries and display generated titles and descriptions.
 2.Backend (Flask): A lightweight API that handles requests from the frontend, communicates with the Google Gemini API, and processes the AI-generated responses.
 3.AI-Powered Generation: Utilizes state-of-the-art Large Language Models (LLMs) from Google Gemini to create relevant and engaging content.
 
 
-#Technologies Used
+# Technologies Used
 Frontend: React.js, HTML, CSS
 Backend: Flask, Python 3.9+, requests, python-dotenv, google-generativeai, gunicorn
 AI Model: Google Gemini API (models/gemini-1.5-flash-latest or similar)
 
-#Prerequisites
+# Prerequisites
 Before you begin, ensure you have the following installed on your machine:
 
 Node.js & npm: https://nodejs.org/en/download/ (npm is included with Node.js)
@@ -28,7 +28,7 @@ Google AI Studio API Key:
   Copy the generated API key immediately and keep it safe.
 
 
-#Setup & Local Development
+# Setup & Local Development
 Follow these steps to get the application running on your local machine.
 
 1. Clone the Repository
@@ -50,6 +50,7 @@ python -m venv venv
     .\venv\Scripts\activate
   On Windows (Git Bash/MinGW):
     source venv/Scripts/activate
+  
 # Install Python dependencies
 pip install -r requirements.txt
 
