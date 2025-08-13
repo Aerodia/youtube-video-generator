@@ -57,7 +57,7 @@ source venv/bin/activate
 ````
   On Windows (Git Bash/MinGW):
 ````
-source venv/Scripts/activate
+source .venv/Scripts/activate
 ```` 
 # Install Python dependencies
 ````
