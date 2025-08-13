@@ -65,9 +65,10 @@ pip install -r requirements.txt
 ````
 Create .env file: In the youtube-video-generator root directory (one level up from backend), create a file named .env.
 
-# Go to the root directory
+Go to the root directory
+````
 cd ..
-
+````
 # Create the .env file
 touch .env # On Windows, you might need to use 'notepad .env' or similar
 Configure .env: Open the newly created .env file and add your Google API key and the desired Gemini model.
