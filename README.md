@@ -20,47 +20,56 @@ Node.js & npm: https://nodejs.org/en/download/ (npm is included with Node.js)
 Python 3.9+: https://www.python.org/downloads/
 pip: Python's package installer (usually comes with Python)
 Git: https://git-scm.com/downloads
+
 Google AI Studio API Key:
-  Go to https://ai.google.dev/
-  Sign in with your Google account.
-  Click on "Get API key" in the left sidebar.
-  Click "Create API key in new project".
-  Copy the generated API key immediately and keep it safe.
+  1.Go to https://ai.google.dev/
+  2.Sign in with your Google account.
+  3.Click on "Get API key" in the left sidebar.
+  4.Click "Create API key in new project".
+  5.Copy the generated API key immediately and keep it safe.
 
 
 # Setup & Local Development
 Follow these steps to get the application running on your local machine.
 
 1. Clone the Repository
+````
 git clone https://github.com/your-username/youtube-video-generator.git # Replace with your repo URL if you fork it
 cd youtube-video-generator
-
+````
 2. Backend Setup (Flask API)
 Navigate into the backend directory, create a virtual environment, install dependencies, and configure your API key.
-
+````
 cd backend
-
+````
 # Create a Python virtual environment
+````
 python -m venv venv
-
+````
 # Activate the virtual environment
   On macOS/Linux:
-    source venv/bin/activate
+````
+source venv/bin/activate
+````
   On Windows (Command Prompt/PowerShell):
-    .\venv\Scripts\activate
+````
+\venv\Scripts\activate
+````
   On Windows (Git Bash/MinGW):
-    source venv/Scripts/activate
-  
+````
+source venv/Scripts/activate
+```` 
 # Install Python dependencies
+````
 pip install -r requirements.txt
-
+````
 Create .env file: In the youtube-video-generator root directory (one level up from backend), create a file named .env.
 
 # Go to the root directory
 cd ..
 
 # Create the .env file
-touch .env # On Windows, you might need to use `notepad .env` or similar
+touch .env # On Windows, you might need to use 'notepad .env' or similar
 Configure .env: Open the newly created .env file and add your Google API key and the desired Gemini model.
 
 GOOGLE_API_KEY="YOUR_API_KEY_FROM_GOOGLE_AI_STUDIO"
@@ -71,27 +80,30 @@ Important: Replace "YOUR_API_KEY_FROM_GOOGLE_AI_STUDIO" with the actual API key 
 3. Frontend Setup (React App)
 Navigate into the frontend directory and install JavaScript dependencies.
 
+````
 cd frontend
-
+````
 # Install Node.js dependencies
+````
 npm install
-
+````
 4. Run the Backend
 Make sure your virtual environment is active in the backend directory.
-
+````
 cd ~/youtube-video-generator/backend # Ensure you are in the backend directory
-
-# (venv)
+````
+(venv)
+````
 python app.py
-
+````
 You should see output indicating the Flask app is running, typically on http://127.0.0.1:5000. Keep this terminal open.
 
 5. Run the Frontend
 In a new terminal window, navigate into the frontend directory and start the React development server.
-
+````
 cd ~/youtube-video-generator/frontend # Ensure you are in the frontend directory
 npm start
-
+````
 This will open the React app in your web browser, usually at http://localhost:3000/.
 
 Now you can interact with the application locally! Input your video script or summary and generate content.
